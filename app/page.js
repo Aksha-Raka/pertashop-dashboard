@@ -9,8 +9,8 @@ export default function LoginPage() {
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
-  const router = useRouter()
-
+  const router = useRouter(
+  )
   async function handleLogin(e) {
     e.preventDefault()
     setError('')
