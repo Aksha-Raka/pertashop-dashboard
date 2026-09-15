@@ -140,7 +140,7 @@ export default function PemilikPage() {
           value={notepad}
           onChange={(e) => handleNotepadChange(e.target.value)}
           placeholder="Catatan pribadi, tersimpan otomatis..."
-          className="w-full min-h-[120px] border border-gray-300 rounded px-3 py-2 text-gray-900"
+          className="w-full min-h-30 border border-gray-300 rounded px-3 py-2 text-gray-900"
         />
       </div>
 
